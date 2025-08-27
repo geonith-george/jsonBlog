@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function NavBar() {
     return (<div className="mt-5">
-        <h1>Blogzzz Namee</h1>
+        <h1>Hey Dreamer!</h1>
         <nav className="flex flex-row justify-start items-center gap-2">
             <motion.div
                 whileHover={{ scale: 1.05 }}

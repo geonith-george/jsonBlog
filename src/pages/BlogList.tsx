@@ -11,9 +11,9 @@ function BlogList() {
             transition={{ duration: 0.5 }}
         >
             <div className='p-2'>
-                <ol className='list-decimal' style={{ maxWidth: "600px", margin: "0 auto", padding: "1rem" }}>
+                <ol className='list-decimal' style={{ maxWidth: "600px"}}>
                     {data.map(blog => (
-                        <li key={blog.id}>
+                        <li className="p-1" key={blog.id}>
                             <Link className='underline' to={`/${blog.id}`}>
                                 {blog.title}
                             </Link>

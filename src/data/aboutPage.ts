@@ -6,7 +6,7 @@ export const about = {
     "I write about web development, tools I explore, and lessons learned along the way."
   ],
   socials: [
-    { name: "Twitter", url: "https://twitter.com/dev_journey" },
-    { name: "LinkedIn", url: "https://linkedin.com/in/dev-journey" },
+    { name: "Twitter", url: "https://twitter.com" },
+    { name: "LinkedIn", url: "https://linkedin.com/in/" },
   ]
 };
